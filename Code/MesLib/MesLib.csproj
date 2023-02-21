@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+	  <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <RootNamespace>GenBao.MES.Lib</RootNamespace>
+	  <OutputPath>..\..\BIn</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Lib\Base\SoulFab.Core.Base.csproj" />
+    <ProjectReference Include="..\..\Lib\Communication\SoulFab.Core.Communication.csproj" />
+    <ProjectReference Include="..\..\Lib\Helper\SoulFab.Core.Helper.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Standalone": {
+      "commandName": "Project",
+      "commandLineArgs": "console",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://www.boway.me:5000"
+    }
+  }
+}

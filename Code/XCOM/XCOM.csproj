@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+	  <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<RootNamespace>GenBao.MES.Lib</RootNamespace>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\..\Bin</OutputPath>
+	</PropertyGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Lib\Communication\SoulFab.Core.Communication.csproj" />
+	  <ProjectReference Include="..\..\Lib\Config\SoulFab.Core.Config.csproj" />
+	</ItemGroup>
+</Project>
